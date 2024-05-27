@@ -18,3 +18,43 @@ Notação Teta: complexidade no caso médio
 Grafo direcionado
 
 nesse grafo as rarestas tem direcao especifica, relacao unidirecional entre os vertices. A conexao entre entre dois vertices tem uma direcao definida, vertice de origem para o vertice de destino
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+grafo nao ponderado, as arestas nao tem pesos associados. Cada aresta pe considerada igual em termos de custo ou importancia
+
+grafo ponderado, cada aresta é associada a um peso ou custo, que pode representar uma medida de distancia,custo,tempo ou qqlr outra grandeza. Os pesos podem ser numeros reais ou inteiros,positivos,negativos, variando do contexto do problema
+
+
+grafo 0regular
+grafo 1regular
+grafo 2regular
+grafo 3regular
+
+grafo completo é um grafo no qual cd par de vertices é conectado por uma aresta. todos os vertices estao interligados entre si
+
+um grafo Kn possui n(n-1)/2 arestas
+
+grafo bipartido é um grafo cujos vertices podem ser dividido em dois conjuntos disjuntos de modo q cada aresta ligue um vertice de um conjunto ao outro
+
+=-=-=-=--=-=-=-=-=-=-=-=-=-=
+
+representacao grafica de um grafo
+
+G= (V,E)
+V= Conjunto de objetos(vertices ou nos)
+E = Conjunto de par ordenado que forma a aresta ou arco
+
+Ex:
+
+V(G)= ´{v1,v2,v3,v4,v5,v6,v7}
+E(G) = {(v1,v2),(v1,v5),(v2,v5),(v5,v7),(v3,v4)}
+
+=-=-=-=-=-=-=-=-=-=-=-=-=
+
+grau ou valencia de um vertice
+
+é o numero de arestas incidentes para com o vertice
+
+teorema: a soma dos graus dos vertices é sempre igual ao dobro do numero de arestas
+
